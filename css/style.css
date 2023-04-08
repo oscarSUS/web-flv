@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d1d2023;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav ul{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    background-color: #2e2f34;
+    box-shadow: 2px 10px 14px 3px rgba(0, 0, 0, 0.4);
+    padding: 11px 30px;
+    justify-content: space-between
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 2px 9px;
+    font-family: 'DotGothic16', sans-serif;
+    background-color: #1d1d20;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
+
+nav figure{
+    display: inline-flex;
+    align-items: center;
+}
+
+nav img{
+    width: 55px;
+    height: 55px;
+}
+
+nav span{
+    color: white;
+    margin-left: 15px;
+    font-size: 2.3rem;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.buscador .buscar{
+    border-radius: 15px;
+    height: 40px;
+    width: 450px;
+    background: #1d1d20;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.buscador .boton{
+    background: #1d1d20;
+    border: none;
+    width: 50px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+main{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 1100px;
+    min-width: 800px;
+    margin: 50px auto 20px auto;
+}
+
+.container-all{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 245px;
+    margin-right: 245px;
+}
+
+.sliderbar{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 30px 30px;
+    border-radius: 15px;
+    width: 400px;
+    height: 1150px;
+}
+
+.sliderbar li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-decoration: none;
+}
+
+
+.sliderbar h1{
+    color: #1d1d20;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+.sliderbar a{
+    text-decoration: none;
+    font-family: 'DotGothic16', sans-serif;
+    color: #2e2f34;
+    font-size: 2.2rem;
+    padding: 6px 2px;
+}
+
+.main_content{
+    margin-left: 50px;
+}
+
+.main_content h1{
+    color: #1d1d20;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    font-weight: 150;
+}
+
+.container_Episodios{
+    display: flex;
+}
+
+.Main-figure{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+}
+
+.Main-figure img{
+    margin-left: 40px;
+    width: 200px;
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 2px 10px 14px 3px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(70deg, rgb(0, 0, 0), rgb(253, 253, 253));
+}
+
+.Main-figure__span-Episodio{
+background-color: rgb(153, 78, 224);
+max-width: 30%;
+bottom: 50px;
+left: 50px;
+position: relative;
+font-family: 'DotGothic16', sans-serif;
+font-size: 1.3rem;
+color: white;
+padding: 5px 4px;
+border-radius: 15px;
+}
+
+.Main-figure__span-nombre{
+bottom: 45px;
+left: 54px;
+font-size: 1.3rem;
+color: white;
+position: relative;
+font-family: 'DotGothic16', sans-serif;
+}
+
+.Main-figure:before{
+    content: "";
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 15px;
+    background: linear-gradient(10deg, rgb(0, 0, 0, 0.6), rgba(253, 253, 253, 0));
+}
+
+footer{
+    display: inline-block;
+    background-color: #2e2f34;
+    width: 100%;
+    height: auto;
+}
+
+.main-footer{
+    padding: 0px 20px;
+    display: inline-flex;
+    grid-gap: 80px;   
+}
+
+.box-logo img{
+width: 150px;
+position: relative;
+bottom: 0px;
+left: 320px;
+}
+
+.Box-Redes{
+    margin-left: 30px;
+}
+
+.Box-Redes a{
+    display: inline-flex;
+    margin-left: 18px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 3.5rem;
+    height: 40px;
+    transition: all 300ms;
+    position: relative;
+    top: 60px;
+    left: 750px;
+}
+
+.Box-Redes a:hover{
+    transform: scale(2);
+    color: rgb(153, 78, 224);
+}
+
+.grupo-2{
+    background-color: #1d1d20;
+    padding: 0px 10px;
+    text-align: center;
+    color: #fff;
+    height: 15px;
+}
+
+.grupo-2 small{
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+}
